@@ -31,6 +31,8 @@ public class MethodOverriding {
         Vehicle myCar = new Car();          // Object of Car subclass
         Vehicle myBike = new Bike();        // Object of Bike subclass
 
+        System.out.println("Running Method Overriding example");
+
         // Calling the start method on different objects
         myVehicle.start();  // Output: Vehicle is starting
         myCar.start();      // Output: Car is starting (Method Overriding)

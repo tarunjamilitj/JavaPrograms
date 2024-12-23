@@ -7,7 +7,8 @@ String s = "Geeks";
   // To StringBuffer
  StringBuffer sbf = new StringBuffer(s);
 // Reverse String
-sbf.reverse();
+sbf.reverse();/**/
+    System.out.println("Running Reverse String example");
  System.out.println(sbf);
         }
 }
